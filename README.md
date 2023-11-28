@@ -12,7 +12,7 @@ This Binary Classifier predicts whether a company will be successful if funded b
   I later removed the Income Amount, Special Considerations and Ask Amount Columns in hopes of icreasing the accuracy of the model.
 
 ## Compiling, Training and Evaluation of the Model
-  I trialed between 2 layers and 3 layers as well as trialing various nurons quantities within those layers. I found that 3 layers with 80, 80, and 20 hidden nodes     and 39 features gave the highest accuracy I reached at 72.839%.
+  I trialed between 2 layers and 3 layers as well as trialing various node quantities within those layers. I found that 3 layers with 80, 80, and 20 hidden nodes     and 39 features gave the highest accuracy I reached at 72.839%.
 
 # Summary
   The model overall was not the most accurate. Potential ways to improve this model would be to include more layers with more varying quantities of nodes. A different activation other than sigmoid and relu may be beneficial.
